@@ -168,6 +168,7 @@ def fetch_youtube_videos(channel_url, channel_id, is_playlist):
                 duration = video_details['items'][0]['contentDetails']['duration']
                 content_type = 'youtubeShort' if 'PT' in duration and 'M' not in duration and 'S' in duration and int(duration.split('S')[0].replace('PT', '')) <= 60 else 'youtubeVideo'
             else:
+                print(video_details)
                 print(f"Warning: Unable to fetch details for video ID: {video_id}")
                 continue  # 해당 영상의 데이터를 가져오지 못했으므로 다음으로 넘어감
             
