@@ -8,9 +8,9 @@ API_KEY = 'AIzaSyDr6e7TpfoTHCqRFOMO4dneIs2_Mx-iUmo'
 
 # MySQL 연결 설정
 db_config = {
-    'host': 'localhost',
-    'user': 'root',        # MariaDB 사용자명
-    'password': 'root',  # MariaDB 비밀번호
+    'host': 'www.bjworld21.com',
+    'user': 'mokkitlist',        # MariaDB 사용자명
+    'password': 'jg@gjd92#g',  # MariaDB 비밀번호
     'database': 'mokkitlist',      # 데이터베이스 이름
     'charset': 'utf8mb4',            # utf8mb4로 설정
     'collation': 'utf8mb4_unicode_ci'
